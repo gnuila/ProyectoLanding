@@ -1,13 +1,3 @@
-/* ---------------------
-   COLORES PRINCIPALES
-
-   Morado: #51448c
-   Morado oscuro: #36305f
-   Gris oscuro: #252730
-   Gris azul: #626779
-   Fondo: #f4f2ee
------------------------ */
-
 * {
     margin: 0;
     padding: 0;
@@ -34,7 +24,6 @@ img {
     display: block;
 }
 
-
 .header {
     background-color: #ebe9e5;
     width: 100%;
@@ -52,7 +41,6 @@ img {
     padding: 0 60px;
 }
 
-
 .logo {
     font-size: 24px;
     letter-spacing: 8px;
@@ -62,16 +50,12 @@ img {
 
 .logo span {
     display: block;
-
     font-size: 8px;
     letter-spacing: 5px;
     text-align: center;
-
     color: #626779;
-
     margin-top: 4px;
 }
-
 
 .menu {
     display: flex;
@@ -90,14 +74,11 @@ img {
     color: #51448c;
 }
 
-
-
 .btn-contacto {
     background-color: #51448c;
     color: white;
 
     padding: 14px 24px;
-
     border-radius: 25px;
 
     font-size: 10px;
@@ -110,8 +91,6 @@ img {
     background-color: #36305f;
 }
 
-
-
 .hero {
     max-width: 1400px;
     margin: auto;
@@ -122,10 +101,9 @@ img {
     min-height: 600px;
 }
 
-
-
 .hero-texto {
     padding: 70px 60px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,6 +121,7 @@ img {
 
 .hero h1 {
     font-family: Georgia, "Times New Roman", serif;
+
     font-size: 66px;
     line-height: 0.95;
     font-weight: normal;
@@ -195,7 +174,6 @@ img {
     transform: translateY(-2px);
 }
 
-
 .hero-imagen {
     min-height: 600px;
     overflow: hidden;
@@ -210,7 +188,47 @@ img {
     object-fit: cover;
 }
 
+.numero {
+    font-size: 10px;
+    font-weight: bold;
 
+    letter-spacing: 1px;
+
+    margin-bottom: 20px;
+
+    color: #36305f;
+}
+
+.titulo-seccion h2,
+.titulo-portafolio h2,
+.nosotros h2,
+.equipo h2,
+.proceso h2,
+.inspiracion h2,
+.experiencia h2,
+.contacto h2 {
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 38px;
+    line-height: 1.05;
+    font-weight: normal;
+
+    margin-bottom: 25px;
+}
+
+.titulo-seccion h2 span,
+.titulo-portafolio h2 span,
+.nosotros h2 span,
+.equipo h2 span,
+.proceso h2 span,
+.inspiracion h2 span,
+.experiencia h2 span,
+.contacto h2 span {
+    display: block;
+
+    color: #51448c;
+    font-style: italic;
+}
 
 .servicios {
     max-width: 1400px;
@@ -226,45 +244,8 @@ img {
     border-top: 1px solid #dedbd4;
 }
 
-.numero {
-    font-size: 10px;
-    font-weight: bold;
-
-    letter-spacing: 1px;
-
-    margin-bottom: 20px;
-
-    color: #36305f;
-}
-
 .titulo-seccion {
     padding-right: 45px;
-}
-
-.titulo-seccion h2,
-.titulo-portafolio h2,
-.nosotros h2,
-.equipo h2,
-.contacto h2 {
-    font-family: Georgia, "Times New Roman", serif;
-
-    font-size: 38px;
-    line-height: 1.05;
-    font-weight: normal;
-
-    margin-bottom: 25px;
-}
-
-.titulo-seccion h2 span,
-.titulo-portafolio h2 span,
-.nosotros h2 span,
-.equipo h2 span,
-.contacto h2 span {
-    display: block;
-
-    color: #51448c;
-
-    font-style: italic;
 }
 
 .titulo-seccion > p:last-child {
@@ -274,10 +255,9 @@ img {
     color: #696a72;
 }
 
-
 .lista-servicios {
     display: grid;
-	grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .servicio {
@@ -325,9 +305,6 @@ img {
     color: #696a72;
 }
 
-
-/* PORTAFOLIO */
-
 .portafolio {
     max-width: 1400px;
     margin: auto;
@@ -350,9 +327,6 @@ img {
 
     line-height: 1.6;
 }
-
-
-/* PROYECTOS */
 
 .proyectos {
     display: grid;
@@ -394,9 +368,6 @@ img {
     color: #51448c;
 }
 
-
-/* NOSOTROS */
-
 .nosotros {
     max-width: 1400px;
 
@@ -419,9 +390,6 @@ img {
     color: #65666e;
 }
 
-
-/* EQUIPO */
-
 .equipo {
     max-width: 1400px;
     margin: auto;
@@ -430,9 +398,6 @@ img {
 
     color: #252730;
 }
-
-
-/* PARTE SUPERIOR */
 
 .equipo-contenido {
     display: grid;
@@ -443,9 +408,6 @@ img {
 
     padding: 70px 60px 55px;
 }
-
-
-/* TEXTO IZQUIERDO */
 
 .equipo-info {
     padding-top: 5px;
@@ -493,9 +455,6 @@ img {
     color: #65666f;
 }
 
-
-/* PERSONAS */
-
 .equipo-personas {
     display: grid;
 
@@ -504,13 +463,9 @@ img {
     gap: 15px;
 }
 
-
 .persona {
     background-color: #f8f7f4;
 }
-
-
-/* FOTOGRAFÍAS */
 
 .persona img {
     width: 100%;
@@ -521,9 +476,6 @@ img {
 
     filter: grayscale(100%);
 }
-
-
-/* TEXTO DE TARJETAS */
 
 .persona-texto {
     padding: 15px 15px 18px;
@@ -548,18 +500,199 @@ img {
 }
 
 
-/* CONTACTO */
-
-.contacto {
+.metricas {
     max-width: 1400px;
+    margin: auto;
 
+    padding: 55px 60px;
+
+    background-color: #51448c;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    text-align: center;
+}
+
+.metrica {
+    padding: 15px;
+
+    border-right: 1px solid #7770a8;
+}
+
+.metrica:last-child {
+    border-right: none;
+}
+
+.metrica h3 {
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 38px;
+    font-weight: normal;
+
+    color: white;
+
+    margin-bottom: 8px;
+}
+
+.metrica p {
+    font-size: 11px;
+
+    color: #ddd9ed;
+}
+
+
+.proceso {
+    max-width: 1400px;
+    margin: auto;
+
+    padding: 90px 60px;
+
+    background-color: #f7f6f3;
+
+    display: grid;
+    grid-template-columns: 280px 1fr;
+
+    gap: 50px;
+}
+
+.proceso-titulo {
+    padding-right: 25px;
+}
+
+.proceso-titulo > p:last-child {
+    font-size: 13px;
+
+    line-height: 1.7;
+
+    color: #696a72;
+}
+
+.pasos {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+.paso {
+    padding: 20px;
+
+    border-top: 1px solid #51448c;
+}
+
+.paso span {
+    font-family: Georgia, serif;
+
+    font-size: 14px;
+
+    color: #51448c;
+}
+
+.paso h3 {
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 18px;
+    font-weight: normal;
+
+    margin: 20px 0 12px;
+}
+
+.paso p {
+    font-size: 11px;
+
+    line-height: 1.7;
+
+    color: #696a72;
+}
+
+
+.inspiracion {
+    max-width: 1400px;
     margin: auto;
 
     padding: 100px 60px;
 
+    background-color: #f4f2ee;
+}
+
+.inspiracion h2 {
+    font-size: 50px;
+}
+
+.inspiracion > p:last-child {
+    max-width: 650px;
+
+    font-size: 14px;
+
+    line-height: 1.8;
+
+    color: #65666e;
+}
+
+
+.experiencia {
+    max-width: 1400px;
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: 40% 60%;
+
+    background-color: #ebe9e5;
+}
+
+.experiencia-texto {
+    padding: 80px 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.experiencia-texto > p:last-child {
+    max-width: 450px;
+
+    font-size: 13px;
+
+    line-height: 1.8;
+
+    color: #696a72;
+}
+
+.experiencia-imagen {
+    min-height: 450px;
+    overflow: hidden;
+}
+
+.experiencia-imagen img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+.contacto {
+    max-width: 1400px;
+    margin: auto;
+
+    padding: 90px 60px;
+
     background-color: #51448c;
 
     color: white;
+}
+
+.contacto-contenido {
+    display: grid;
+
+    grid-template-columns: 45% 55%;
+
+    gap: 70px;
+
+    align-items: center;
 }
 
 .contacto .numero {
@@ -574,12 +707,88 @@ img {
     color: #d8d2f0;
 }
 
-.contacto p:last-child {
-    max-width: 580px;
+.contacto-texto > p:last-child {
+    max-width: 500px;
 
     line-height: 1.8;
 
     color: #e0ddec;
+}
+
+
+.formulario {
+    background-color: #f7f6f3;
+
+    padding: 35px;
+
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+
+    font-size: 11px;
+    font-weight: bold;
+
+    margin-bottom: 8px;
+
+    color: #36305f;
+}
+
+.campo input,
+.campo select,
+.campo textarea {
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #d4d1cb;
+
+    background-color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 12px;
+
+    outline: none;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+    border-color: #51448c;
+}
+
+.campo textarea {
+    resize: vertical;
+}
+
+.formulario button {
+    background-color: #51448c;
+
+    color: white;
+
+    border: none;
+
+    padding: 14px 25px;
+
+    border-radius: 25px;
+
+    font-size: 10px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.formulario button:hover {
+    background-color: #36305f;
 }
 
 
@@ -595,7 +804,9 @@ footer {
     color: #b9bac0;
 
     display: flex;
+
     align-items: center;
+
     justify-content: space-between;
 
     font-size: 11px;
@@ -660,7 +871,36 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .equipo-contenido {
+        grid-template-columns: 1fr;
+    }
+
+    .metricas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .proceso {
+        grid-template-columns: 1fr;
+    }
+
+    .pasos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .experiencia {
+        grid-template-columns: 1fr;
+    }
+
+    .experiencia-imagen {
+        min-height: 400px;
+    }
+
+    .contacto-contenido {
+        grid-template-columns: 1fr;
+    }
+
 }
+
 
 
 @media (max-width: 600px) {
@@ -689,6 +929,9 @@ footer {
     .portafolio,
     .nosotros,
     .equipo,
+    .proceso,
+    .inspiracion,
+    .experiencia,
     .contacto {
         padding: 60px 25px;
     }
@@ -711,6 +954,33 @@ footer {
 
     .proyecto img {
         height: 350px;
+    }
+
+    .equipo-personas {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .metricas {
+        grid-template-columns: 1fr 1fr;
+
+        padding: 40px 20px;
+    }
+
+    .metrica {
+        border-right: none;
+        border-bottom: 1px solid #7770a8;
+    }
+
+    .pasos {
+        grid-template-columns: 1fr;
+    }
+
+    .contacto h2 {
+        font-size: 45px;
+    }
+
+    .formulario {
+        padding: 25px;
     }
 
     footer {
