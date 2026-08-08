@@ -983,14 +983,78 @@ footer {
         padding: 25px;
     }
 
-    footer {
-        padding: 40px 25px;
+.site-footer,
+.site-footer.bg-light {
+  background-color: #f7f4ef;
+  font-family: system-ui, -apple-system, sans-serif;
+  width: 100%;
+}
 
-        flex-direction: column;
+.footer-logo {
+  font-size: 24px;
+    letter-spacing: 8px;
+    font-weight: 600;
+    color: #51448c;
+}
 
-        align-items: flex-start;
+.footer-logo span {
+  color: #333333;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-top: 4px;
+  display: block;
+}
 
-        gap: 20px;
-    }
 
+.footer-n {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: #1a1a1a;
+  margin-bottom: 1.25rem;
+  text-transform: uppercase;
+}
+
+.brand-desc {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.social-icons a {
+  font-size: 16px;
+  color: #2b2b2b;
+  transition: color 0.2s ease;
+}
+
+.social-icons a:hover,
+.site-footer ul li a:hover {
+  color: #5c4b9b;
+}
+
+.btn-contacto-f{
+	 background-color: #51448c;
+    color: white;
+
+    padding: 14px 24px;
+    border-radius: 25px;
+
+    font-size: 10px;
+    font-weight: bold;
+
+    transition: 0.3s;
+	
+	margin-bottom: 30px;
+	}
+
+.email-link {
+  color: #5c4b9b;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.credits {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
 }
